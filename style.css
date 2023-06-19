@@ -1,0 +1,170 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-color: grey;
+    }
+    
+.Master{
+    background-color: aqua;
+}
+
+.container{
+    background-image: url(Images/1286562.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.Flex-Container{
+display: flex;
+max-width: 1920px;
+width: 100%;
+flex-wrap: wrap;
+justify-content: center;
+}
+.Box{
+font-size: 5px;
+text-align: center;
+color: cornflowerblue;
+
+}
+img :hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+#Tittle2{
+text-align: center;
+font-size: 40px;
+color:#fff;
+margin: 40px;
+}
+.Flex-Container2{
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    }
+    .Box2{
+    font-size: small;
+    text-align: center;
+    color: cornflowerblue;
+    }
+
+    img{
+        width: 250px;
+        height: 250px;
+        padding: 10px;
+    }
+
+.M {
+text-align: center;
+color: cornflowerblue;
+}
+
+/*Navigation Bar*/
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.search{
+    width: 20rem;
+    float: left;
+    margin-left: 17rem;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 12rem;
+    height: 3rem;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+.search2{
+    width: 20rem;
+    float: left;
+    margin-left: 17rem;
+}
+
+.menu{
+    padding: 40px;
+}
+
+.main{
+    margin: 40px;
+}
+
+.formation-title{
+  position: absolute;
+  color: antiquewhite;
+  bottom: 0%;
+  
+}
+#Text{
+text-align: center;
+font-size: 40px;
+color:#fff;
+margin: 40px;
+}
+#Text2{
+    text-align: center;
+    font-size: 40px;
+    color:#fff;
+    margin: 40px;
+    }
+
+.d-block{
+    max-height: fit-content;
+    height: 800px;
+    max-width: 800px;
+    margin: auto;
+        }
+
+footer {
+    width: 100vh;
+    height: 20px;
+    position: absolute;
+    bottom: 0%;
+}
+
+#footer2{
+    bottom: 0%;
+}
+
