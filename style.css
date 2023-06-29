@@ -45,6 +45,12 @@ body {
   color: cornflowerblue;
 }
 
+.M {
+  padding: auto;
+  margin-right: 80px;
+  text-align: center;
+  color: cornflowerblue
+}
 img :hover {
   cursor: pointer;
   opacity: 0.5;
@@ -60,11 +66,7 @@ img {
   padding: 10px;
 }
 
-.M {
-  padding: auto;
-  text-align: center;
-  color: white;
-}
+
 
 /* Nesting */
 .navbar-expand-lg ul {
