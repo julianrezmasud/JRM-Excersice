@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: $back-color;
+    background-color: grey;
 }
 
 .Master {
@@ -14,6 +14,10 @@ body {
     background-position: center;
     width: 100%;
     height: 100vh;
+}
+
+.P {
+    color: $color-flowerblue;
 }
 
 .Flex-Container {
@@ -49,12 +53,6 @@ img {
     width: 250px;
     height: 250px;
     padding: 10px;
-}
-
-.M {
-    padding: auto;
-    text-align: center;
-    color: $color-flowerblue;
 }
 
 .menu {
