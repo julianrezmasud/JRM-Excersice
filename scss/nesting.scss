@@ -1,0 +1,22 @@
+.navbar-expand-lg {
+    ul {
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li {
+        list-style: none;
+        margin-left: 3rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 20px;
+        color: $tittle-font;
+        font-family: $tittle-font;
+        font-weight: bold;
+    }
+}
