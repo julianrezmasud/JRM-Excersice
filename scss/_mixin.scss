@@ -1,0 +1,12 @@
+@mixin flex-container {
+
+    .Flex-Container,
+    .Flex-Container2 {
+        display: flex;
+        max-width: 1920px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+}

@@ -8,7 +8,7 @@ body {
 }
 
 .Master {
-  background-image: url(Images/1286562.jpg);
+  background-image: url(/Images/1286562.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -72,9 +72,6 @@ img {
   padding: 10px;
 }
 
-
-
-/* Nesting */
 .navbar-expand-lg ul {
   float: left;
   display: flex;
@@ -102,12 +99,6 @@ img {
 
 .main {
   margin: 40px;
-}
-
-.formation-title {
-  position: absolute;
-  color: antiquewhite;
-  bottom: 0%;
 }
 
 #Text {

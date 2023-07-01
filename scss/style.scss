@@ -1,3 +1,6 @@
+@import "variables";
+@import "nesting";
+
 * {
     margin: 0;
     padding: 0;
@@ -21,23 +24,6 @@ body {
     color: cornflowerblue;
 }
 
-
-.Flex-Container {
-    display: flex;
-    max-width: 1920px;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.Flex-Container2 {
-    display: flex;
-    max-width: 1920px;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 #names {
     font-size: 15px;
 }
@@ -48,7 +34,7 @@ body {
 
 .Box {
     text-align: center;
-    color: $color-flowerblue;
+    color: $color-fifa;
 }
 
 img {
