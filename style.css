@@ -57,14 +57,7 @@ body {
   color: cornflowerblue
 }
 
-img :hover {
-  cursor: pointer;
-  opacity: 0.5;
-  transition: 0.5s;
-  width: 250px;
-  height: 250px;
-  padding: 10px;
-}
+
 
 img {
   width: 250px;
