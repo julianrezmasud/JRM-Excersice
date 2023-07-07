@@ -21,7 +21,7 @@ body {
 }
 
 .P {
-    color: cornflowerblue;
+    color: $P;
 }
 
 #names {
@@ -29,12 +29,12 @@ body {
 }
 
 #names2 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .Box {
     text-align: center;
-    color: $color-fifa;
+    color: $tittle-c;
 }
 
 img {
@@ -53,8 +53,8 @@ img {
 
 #Text {
     text-align: center;
-    font-size: 40px;
-    color: $tittle-font;
+    font-size: 35px;
+    color: $tittle-a;
     margin: 40px;
 }
 
