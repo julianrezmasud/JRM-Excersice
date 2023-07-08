@@ -19,6 +19,7 @@ body {
 
 .P {
   color: black;
+  font-size: 18px;
 }
 
 .Flex-Container {
@@ -47,7 +48,8 @@ body {
 
 .Box {
   text-align: center;
-  color: white;
+  color: black;
+  margin: 20px;
 }
 
 .M {
@@ -63,6 +65,8 @@ img {
   width: 250px;
   height: 250px;
   padding: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px coral;
 }
 
 .navbar-expand-lg ul {
@@ -74,7 +78,7 @@ img {
 
 .navbar-expand-lg li {
   list-style: none;
-  margin-left: 3rem;
+  margin-left: 9rem;
   margin-top: 1rem;
   font-size: 1rem;
 }
