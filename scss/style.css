@@ -80,8 +80,8 @@ img {
 
 .d-block {
   max-height: fit-content;
-  height: 800px;
-  max-width: 800px;
+  height: 500px;
+  max-width: 500px;
   margin: auto;
 }
 
